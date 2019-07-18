@@ -1,4 +1,7 @@
 import React from 'react';
+import KeyPadComponent from "./KeyPadComponent"
+
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -7,14 +10,12 @@ class App extends React.Component {
     }
     this.handleClick = this.handleClick.bind(this);
   }
-  handleClick(e) {
-
-  }
-
+  
   render() {
     return (
       <div>
         <h1>Simple Calculator</h1>
+        <KeyPadComponent />
       </div>
     )
   }
