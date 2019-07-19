@@ -8,3 +8,9 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.result {
+    height: 60px;
+    background-color: #bbb;
+    width: 100%;
+  }
