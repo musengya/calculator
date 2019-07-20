@@ -20,3 +20,7 @@ body {
     margin: 5px;
   
   }
+  .calculator-body {
+    max-width: 400px;
+    margin: auto;
+  }
