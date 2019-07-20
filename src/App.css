@@ -24,3 +24,8 @@ body {
     max-width: 400px;
     margin: auto;
   }
+  .button {
+    display: block;
+    background-color: #bbb;
+  }
+  
