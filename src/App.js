@@ -3,6 +3,7 @@ import './App.css';
 import ResultComponent from "./ResultComponent";
 import KeyPadComponent from "./KeyPadComponent";
 
+// Defining a class
 class App extends Component {
     constructor(){
         super();
@@ -11,7 +12,7 @@ class App extends Component {
             result: ""
         }
     }
-
+// Handling onClick event
     onClick = button => {
 
         if(button === "="){
