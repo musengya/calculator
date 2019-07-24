@@ -33,7 +33,7 @@ class App extends Component {
         }
     };
 
-
+// Handling calculation
     calculate = () => {
         var checkResult = ''
         if(this.state.result.includes('--')){
