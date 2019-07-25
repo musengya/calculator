@@ -1,7 +1,7 @@
 import React from "react"
 
 class KeyPadComponent extends React.Component {
-
+// Rendering the buttons available on the calculator
  render() {
         return (
             <div className="button">
