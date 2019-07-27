@@ -30,6 +30,7 @@ body {
     display: block;
     background-color: #bbb;
   }
+  /* styling the buttons */
   button {
     width: 25%;
     height: 60px;
