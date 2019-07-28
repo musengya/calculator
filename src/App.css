@@ -10,6 +10,9 @@ body {
     display: flex;
     justify-content: center;
 }
+.parent {
+  overflow-x: hidden;
+}
 
 .result {
     height: 60px;
