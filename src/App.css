@@ -12,7 +12,6 @@ body {
 }
 .myResult{
   overflow: hidden;
-overflow: scroll;
 }
 
 .result {
