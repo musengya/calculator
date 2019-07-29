@@ -10,8 +10,9 @@ body {
     display: flex;
     justify-content: center;
 }
-.parent {
-  overflow-x: hidden;
+.myResult{
+  overflow: hidden;
+
 }
 
 .result {
