@@ -35,7 +35,7 @@ class App extends Component {
 
     // Handling calculation
     calculate = () => {
-        var checkResult = ''
+        var checkResult = ""
         if (this.state.result.includes('--')) {
             checkResult = this.state.result.replace('--', '+')
         }
