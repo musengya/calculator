@@ -13,7 +13,7 @@ body {
 .myResult{
   overflow-x: auto;
 }
-
+/* Styling the result div */
 .result {
     height: 60px;
     background-color: #bbb;
