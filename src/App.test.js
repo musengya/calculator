@@ -8,7 +8,6 @@ afterEach(cleanup);
 describe("App", () => {
     test("displays correct title", () => {
         const { getByText } = render(<App />);
-
         expect(getByText("Simple Calculator")).toBeDefined();
     });
 })
